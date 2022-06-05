@@ -1,0 +1,189 @@
+body {
+    background-color: #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.header {
+
+    color: white;
+    background-color: #a60004;
+    padding: 10px;
+    margin: 0;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style-type: none; /* Remove os pontos/estilos da lista. */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #252525;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    line-height: 0;
+}
+
+.navbar li {
+    float: left;
+    border-right: 1px solid #a60004;
+}
+
+.navbar li:last-child {
+    border-right: none;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 25px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #a60004;
+}
+
+.main {
+    background-color: #252525;
+    border: 1px solid black;
+    width: 900px;
+    float: left;
+    margin: 0px;
+    padding: 10px;
+    color: white;
+    clear: left;
+}
+
+.main #myButton {
+    background-color:#595959;
+    border-radius:28px;
+    border:1px solid #5c575c;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:14px;
+    padding:16px 20px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #000000;
+}
+
+.main #myButton:hover {
+    background-color:#000000;
+}
+
+.main #myButton:active {
+        position:relative;
+        top:1px;
+}   
+
+h2, #CoordTutor, #CoordCao {
+    text-align: center;
+}
+
+h2 , h3 , h4, #CoordTutor, #CoordCao, #Lati1, #Longi1, #Lati2, #Longi2 {
+    color: #1a8cff;
+}
+
+.main #indice {
+    margin-left: 42px;
+}
+
+.main #calculator {
+    color: #1a8cff;
+    text-align: center;
+}
+.main #calculator_form {
+    border-radius: 5px;
+    background-color: black;
+    padding: 5px;
+    color: white;
+    width: 400px;
+    float: left;
+    clear: left;
+}
+
+#meters_r {
+    text-align: right;
+}
+
+.main #calculator_form input[type=text] {
+    width: 100%;
+    padding: 10px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.main table {
+    width: 480px;
+    float: right;
+    overflow-x: auto;
+    clear: right;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.main #table_head {
+    color: #1a8cff;
+}
+
+th, td {
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding: 8px;
+}
+
+tr:hover {
+    background-color: #444444;
+}
+
+.pet_needs {
+    background-color: #252525;
+    border: 1px solid black;
+    width: 900px;
+    height: 195px;
+    float: left;
+    margin: 0px;
+    padding: 10px;
+    color: white;
+    clear: left;
+}
+
+#pet_needs_head {
+    text-align: center;
+}
+
+.pet_needs p {
+    float: left;
+    padding: 10px;
+}
+
+.tips {
+    background-color: #252525;
+    border: 1px solid black;
+    width: 256px;
+    margin: 0;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    float: right;
+    clear: right;
+    overflow: auto;
+}
+
+p {
+    text-align: justify;
+    text-justify: inter-word;
+}
